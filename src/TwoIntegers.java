@@ -40,7 +40,7 @@ public class TwoIntegers
 		+ " // " + num1 + " - " + num2 + " = " + difference
 		+ " // " + num1 + " / " + num2 + " = " + quotient;
 	}
-	public String larger()
+	public int larger()
 	{
 		if(num1 > num2)
 		{
@@ -51,5 +51,20 @@ public class TwoIntegers
 			return num1;
 		}
 		else
+		{
+			return num1;
+		}
+	}
+
+	public boolean isEven()
+	{
+		if((num1 + num2) % 2 == 0 )
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
 	}
 }
