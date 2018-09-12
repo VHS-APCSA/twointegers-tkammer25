@@ -48,7 +48,7 @@ public class TwoIntegers
 		}
 		else if(num2 > num1)
 		{
-			return num1;
+			return num2;
 		}
 		else
 		{
